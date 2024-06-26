@@ -1,0 +1,106 @@
+[
+    {
+        "label": "Deta",
+        "importPath": "deta",
+        "description": "deta",
+        "isExtraImport": true,
+        "detail": "deta",
+        "documentation": {}
+    },
+    {
+        "label": "Deta",
+        "importPath": "deta",
+        "description": "deta",
+        "isExtraImport": true,
+        "detail": "deta",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "posixpath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "posixpath",
+        "description": "posixpath",
+        "detail": "posixpath",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "DetaPathLike",
+        "kind": 6,
+        "importPath": "build.lib.detafs.core",
+        "description": "build.lib.detafs.core",
+        "peekOfCode": "class DetaPathLike(os.PathLike):\n    \"\"\"\n    A class that implements the os.PathLike interface for working with Deta.Drive.\n    It provides a file system-like interface for Deta.Drive operations.\n    \"\"\"\n    def __init__(self, project_key, drive_name):\n        \"\"\"\n        Initialize the DetaPathLike object.\n        Args:\n            project_key (str): The project key for Deta.",
+        "detail": "build.lib.detafs.core",
+        "documentation": {}
+    },
+    {
+        "label": "DetaFileReader",
+        "kind": 6,
+        "importPath": "build.lib.detafs.core",
+        "description": "build.lib.detafs.core",
+        "peekOfCode": "class DetaFileReader:\n    \"\"\"\n    A class that provides a file-like interface for reading files from Deta.Drive.\n    \"\"\"\n    def __init__(self, deta_path, path):\n        \"\"\"\n        Initialize the DetaFileReader.\n        Args:\n            deta_path (DetaPathLike): The DetaPathLike object.\n            path (str): The path of the file to read.",
+        "detail": "build.lib.detafs.core",
+        "documentation": {}
+    },
+    {
+        "label": "DetaFileWriter",
+        "kind": 6,
+        "importPath": "build.lib.detafs.core",
+        "description": "build.lib.detafs.core",
+        "peekOfCode": "class DetaFileWriter:\n    \"\"\"\n    A class that provides a file-like interface for writing files to Deta.Drive.\n    \"\"\"\n    def __init__(self, deta_path, path):\n        \"\"\"\n        Initialize the DetaFileWriter.\n        Args:\n            deta_path (DetaPathLike): The DetaPathLike object.\n            path (str): The path of the file to write.",
+        "detail": "build.lib.detafs.core",
+        "documentation": {}
+    },
+    {
+        "label": "DetaPathLike",
+        "kind": 6,
+        "importPath": "detafs.core",
+        "description": "detafs.core",
+        "peekOfCode": "class DetaPathLike(os.PathLike):\n    \"\"\"\n    A class that implements the os.PathLike interface for working with Deta.Drive.\n    It provides a file system-like interface for Deta.Drive operations.\n    \"\"\"\n    def __init__(self, project_key, drive_name):\n        \"\"\"\n        Initialize the DetaPathLike object.\n        Args:\n            project_key (str): The project key for Deta.",
+        "detail": "detafs.core",
+        "documentation": {}
+    },
+    {
+        "label": "DetaFileReader",
+        "kind": 6,
+        "importPath": "detafs.core",
+        "description": "detafs.core",
+        "peekOfCode": "class DetaFileReader:\n    \"\"\"\n    A class that provides a file-like interface for reading files from Deta.Drive.\n    \"\"\"\n    def __init__(self, deta_path, path):\n        \"\"\"\n        Initialize the DetaFileReader.\n        Args:\n            deta_path (DetaPathLike): The DetaPathLike object.\n            path (str): The path of the file to read.",
+        "detail": "detafs.core",
+        "documentation": {}
+    },
+    {
+        "label": "DetaFileWriter",
+        "kind": 6,
+        "importPath": "detafs.core",
+        "description": "detafs.core",
+        "peekOfCode": "class DetaFileWriter:\n    \"\"\"\n    A class that provides a file-like interface for writing files to Deta.Drive.\n    \"\"\"\n    def __init__(self, deta_path, path):\n        \"\"\"\n        Initialize the DetaFileWriter.\n        Args:\n            deta_path (DetaPathLike): The DetaPathLike object.\n            path (str): The path of the file to write.",
+        "detail": "detafs.core",
+        "documentation": {}
+    }
+]
